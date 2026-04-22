@@ -1,4 +1,4 @@
-# 🧱 Antishitcode - 赤石科技
+# 🧱 Antishitcode - 代码法医中心
 
 > **⚠️ 本项目仅提供思路和方法论，所有代码由 AI 生成。**
 >
