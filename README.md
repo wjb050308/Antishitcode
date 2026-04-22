@@ -1,24 +1,16 @@
 # 🧱 Antishitcode - 赤石科技
 
-> 让 AI 成为你的代码考古学家
-
-用考古学原理理解、测试、重构屎山代码。基于 Chain-of-Thought 推理、递归包装、Halstead 复杂度分析。
+> **⚠️ 本项目仅提供思路和方法论，所有代码由 AI 生成。**
+>
+> - 不对代码分析结果的准确性做保证
+> - 不对因使用本工具造成的任何损失负责
+> - 建议结合人工审查使用
 
 ---
 
-## 🔮 多语言支持
+让 AI 成为你的代码考古学家。
 
-| 语言 | 状态 | 解析器 | 说明 |
-|------|------|--------|------|
-| 🐍 Python | ✅ 已支持 | ast | 原生 AST 解析 |
-| 📜 JavaScript | 🔜 规划中 | Tree-sitter | 前端/全栈项目 |
-| 📘 TypeScript | 🔜 规划中 | Tree-sitter | 类型安全 JS |
-| ☕ Java | 🔜 规划中 | Tree-sitter | 企业级项目 |
-| 🔷 Go | 🔜 规划中 | Tree-sitter | 云原生/后端 |
-| 🦀 Rust | 🔜 规划中 | Tree-sitter | 系统编程 |
-| ⚙️ C/C++ | 🔜 规划中 | Tree-sitter | 底层开发 |
-
-**欢迎提交 PR 扩展其他语言！**
+用考古学原理理解、测试、重构屎山代码。基于 Chain-of-Thought 推理、递归包装、Halstead 复杂度分析。
 
 ---
 
@@ -104,6 +96,22 @@ curl -X POST http://localhost:8000/api/v1/analyze \
 
 ---
 
+## 🔮 多语言支持
+
+| 语言 | 状态 | 解析器 | 说明 |
+|------|------|--------|------|
+| 🐍 Python | ✅ 已支持 | ast | 原生 AST 解析 |
+| 📜 JavaScript | 🔜 规划中 | Tree-sitter | 前端/全栈项目 |
+| 📘 TypeScript | 🔜 规划中 | Tree-sitter | 类型安全 JS |
+| ☕ Java | 🔜 规划中 | Tree-sitter | 企业级项目 |
+| 🔷 Go | 🔜 规划中 | Tree-sitter | 云原生/后端 |
+| 🦀 Rust | 🔜 规划中 | Tree-sitter | 系统编程 |
+| ⚙️ C/C++ | 🔜 规划中 | Tree-sitter | 底层开发 |
+
+**欢迎提交 PR 扩展其他语言！**
+
+---
+
 ## 🛠️ 技术栈
 
 - **Python AST** - 代码解析
@@ -165,16 +173,6 @@ pip install tree-sitter-languages
 # 可选：单独安装特定语言
 npm install -g tree-sitter-cli
 ```
-
----
-
-## ⚠️ 免责声明
-
-**本项目仅提供思路和方法论，所有代码由 AI 生成。**
-
-- 不对代码分析结果的准确性做保证
-- 不对因使用本工具造成的任何损失负责
-- 建议结合人工审查使用
 
 ---
 
